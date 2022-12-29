@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   padding-top: 20px;
+   color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 2px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    transition:1.0s;
+    border-bottom: 2px solid white;
+    margin: auto;
+    height: 42px;
+}
+li{
+    justify-content: space-evenly;
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+li:hover{
+    text-decoration: underline 5px solid skyblue;
+}
+.lists{
+    display: flex;
+    list-style: none;
+
+}
+.logo{
+    margin-left: 22px;
+}
+.user{
+    margin-right: 22px;
+}
+body{
+    height: 100rem;
+
+}
+.navbg{
+    background-color: white;
+    border-bottom: 3px solid skyblue;
+    color: skyblue;
+    transition:1.2s;
+    
+}
+.main-body{
+    height: 100vh;
+    background: url(./background.jpg);
+    background-size: cover;
+}
+.text1{
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.whole{
+    background-color: rgb(236, 233, 233);
+    height: 100vh;
+}
+.image-card{
+    background-color: white;
+    height: 195px;
+    box-shadow: 0px 5px 2px rgba(0,0,0,0.3);
+
+    width: 250px;
+    padding-top: 35px;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 35px;
+    margin: auto;
+
+}
+.input{
+    background-color: rgb(236, 233, 233);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 15px;
+    border: 2px solid skyblue;
+    overflow: none;
+    outline: none;
+     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+     padding: 0px 35px;
+     color: black;
+}
